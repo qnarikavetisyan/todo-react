@@ -1,0 +1,49 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 60%;
+}
+
+.todo-item {
+  border: 3px solid violet;
+  padding: 10px;
+  margin: 8px;
+}
+
+label {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.checkbox {
+  width: 15px;
+  height: 15px;
+}
+
+.delete-button {
+  background: none;
+  border: none;
+  color: red;
+  width: 30px;
+  height: 27px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.add-input {
+  padding: 12px;
+  margin: 2px;
+}
+
+span {
+  padding: 3px;
+  margin: 10px;
+  background: #72598e;
+  color: #fff;
+}
+
+span:hover {
+  cursor: pointer;
+}
